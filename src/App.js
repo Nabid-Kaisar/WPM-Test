@@ -66,49 +66,45 @@ class App extends Component {
 
   render() {
     return (
-      <div className="page-design">
-        <h2 className="white-text">
-          Type in the box:{" "}
-          <p className="white-text">
-            On July 11, 2013 the United States government recognised
-            professional players of the video game League of Legends as
-            professional athletes. In a practical sense this has no effect
-            beyond the bureaucratic (League players now have an easier time with
-            passports), but it reflects that the world of eSports is being taken
-            seriously.That being said, this sounds like very much a first world
-            phenomenon: there could not be any scope for eSports developing in
-            Bangladesh, surely? As it turns out, the answers to that question
-            are much more complex than one might expect. According to Soufin
-            Rahimeen aka FlameDra, a League of Legends player, the prospects of
-            eSports in Bangladesh has never been higher. He cites the rise of
-            devoted communities and strong teams in a number of competitive
-            games (Counter-strike, LoL and DotA 2 to name a few) and a growing
-            number of sponsored organisations such as Infernal Gaming that try
-            to get teams together to compete in international tournaments.
-            Beside the DPC point system based direct-invites, the rest of the
-            tournament is organized in 4 different stages. Open Qualifier,
-            Regional Qualifier, Group Stage and Main event. For a tournament
-            this big you need a huge time to organize the qualifier. Different
-            Regions and a huge pool of teams attending the qualifier makes it
-            tough for most of the team that has not invited directly.
-          </p>
-        </h2>
-        <h2 className="red-text">
+      <div className="container">
+        <h3>
+          Type in the box:
+        </h3>
+        <p className="text-content">
+          On July 11, 2013 the United States government recognised
+          professional players of the video game League of Legends as
+          professional athletes. In a practical sense this has no effect
+          beyond the bureaucratic (League players now have an easier time with
+          passports), but it reflects that the world of eSports is being taken
+          seriously.That being said, this sounds like very much a first world
+          phenomenon: there could not be any scope for eSports developing in
+          Bangladesh, surely? As it turns out, the answers to that question
+          are much more complex than one might expect. According to Soufin
+          Rahimeen aka FlameDra, a League of Legends player, the prospects of
+          eSports in Bangladesh has never been higher. He cites the rise of
+          devoted communities and strong teams in a number of competitive
+          games (Counter-strike, LoL and DotA 2 to name a few) and a growing
+          number of sponsored organisations such as Infernal Gaming that try
+          to get teams together to compete in international tournaments.
+          Beside the DPC point system based direct-invites, the rest of the
+          tournament is organized in 4 different stages. Open Qualifier,
+          Regional Qualifier, Group Stage and Main event. For a tournament
+          this big you need a huge time to organize the qualifier. Different
+          Regions and a huge pool of teams attending the qualifier makes it
+          tough for most of the team that has not invited directly.
+        </p>
+        <h3>
           The number of words u corrected:
           {this.state.correctedWord}
-        </h2>
-        <form className="white-text">
-          Start typing from here:<br />
-          <input
-            type="text"
-            className="input-box-for-typing"
-            name="input-box"
-            onChange={this.handleChange}
-          />{" "}
-          <br />
-        </form>
-
-        <button onClick={this.startTime} className="start-button">
+        </h3>
+        <p>Start typing from here</p>
+        <input
+          type="text"
+          className="content-input"
+          name="input-box"
+          onChange={this.handleChange}
+        />
+        <button onClick={this.startTime} className="submit-button">
           Start Test
         </button>
       </div>
