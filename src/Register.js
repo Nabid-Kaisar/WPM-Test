@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import "./Register.css";
 
 class Register extends Component {
   constructor(props) {

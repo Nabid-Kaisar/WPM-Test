@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-
-import "./App.css";
 import Stopwatch from "react-stopwatch";
 import ReactDOM from "react-dom";
 
