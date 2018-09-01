@@ -7,6 +7,6 @@ import Register from "./Register.js";
 
 import Stopwatch from "react-stopwatch";
 
-//ReactDOM.render(<App />, document.getElementById("root"));
-ReactDOM.render(<Register />, document.getElementById("reg"));
+ReactDOM.render(<App />, document.getElementById("root"));
+//ReactDOM.render(<Register />, document.getElementById("reg"));
 registerServiceWorker();

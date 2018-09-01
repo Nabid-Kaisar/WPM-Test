@@ -1,5 +1,6 @@
-.App {
+.page-design {
   text-align: center;
+  background-color: black;
 }
 
 .App-logo {
@@ -31,7 +32,7 @@
   }
 }
 
-.box {
+.start-button {
   background: linear-gradient(to right, gold, darkorange);
   color: white;
   --width: 250px;
@@ -53,13 +54,13 @@
   overflow: hidden;
 }
 
-.box:hover {
+.start-button:hover {
   transform: perspective(500px) rotateY(15deg);
   text-shadow: -6px 3px 2px rgba(0, 0, 0, 0.2);
   box-shadow: -2px 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-.box::before {
+.start-button::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -69,14 +70,25 @@
   transition: 0.5s;
 }
 
-.box:hover::before {
+.start-button:hover::before {
   left: 100%;
 }
 
-.Text1 {
+.white-text {
   color: white;
 }
 
-.CorrectedText {
+.red-text {
   color: red;
+}
+
+.input-box-for-typing {
+  background-color: white;
+
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  height: 2em;
+  width: 80%;
+  margin: 5em auto;
 }

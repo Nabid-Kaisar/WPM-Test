@@ -96,7 +96,7 @@ a {
   padding: 40px;
 }
 
-.textbox {
+.text-input {
   height: 50px;
   width: 100%;
   border-radius: 3px;
@@ -106,7 +106,7 @@ a {
   margin-bottom: 30px;
 }
 
-.textbox:focus {
+.text-input:focus {
   outline: none;
   border: rgba(24, 149, 215, 1) 2px solid;
   color: rgba(24, 149, 215, 1);

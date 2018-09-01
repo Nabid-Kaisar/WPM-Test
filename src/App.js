@@ -68,10 +68,10 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <h2 className="Text1">
+      <div className="page-design">
+        <h2 className="white-text">
           Type in the box:{" "}
-          <p className="Text1">
+          <p className="white-text">
             On July 11, 2013 the United States government recognised
             professional players of the video game League of Legends as
             professional athletes. In a practical sense this has no effect
@@ -95,22 +95,22 @@ class App extends Component {
             tough for most of the team that has not invited directly.
           </p>
         </h2>
-        <h2 className="CorrectedText">
+        <h2 className="red-text">
           The number of words u corrected:
           {this.state.correctedWord}
         </h2>
-        <form className="Text1">
+        <form className="white-text">
           Start typing from here:<br />
           <input
-            className="textBox"
             type="text"
-            name="someType"
+            className="input-box-for-typing"
+            name="input-box"
             onChange={this.handleChange}
           />{" "}
           <br />
         </form>
 
-        <button onClick={this.startTime} className="box">
+        <button onClick={this.startTime} className="start-button">
           Start Test
         </button>
       </div>
