@@ -35,3 +35,7 @@ button{
   color:black;
   background-color:white;
 }
+.content-input{
+  width: 70%;
+  height: 10em;
+}
